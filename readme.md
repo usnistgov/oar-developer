@@ -1,6 +1,6 @@
 # Open Access to Research Developer Repository (oar-developer)
 
-The NIST public Science Data Portal and Repository software is a collection of shared software repositories for the Open Access to Research (OAR) public data infrastructure.   These software repositories include functionality for discovery, search,  filtering and access to [NIST public data](https://www.nist.gov/open) as per government policy.  The primary user interface for the NIST OAR data dissemination and public access system is available at https://data.nist.gov
+The NIST _Science Data Portal_ and _Public Data Repository_ software is a collection of shared software repositories developed for the NIST Open Access to Research (OAR) public data infrastructure.   These software repositories include functionality for discovery, search,  filtering and access to [NIST public data](https://www.nist.gov/open) as per government policy.  The primary user interface for the parent NIST OAR data dissemination and public access system is available at https://data.nist.gov
 
 
 ## OAR Public Software Repository List 
