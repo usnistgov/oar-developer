@@ -4,14 +4,19 @@ The NIST public Science Data Portal and Repository software is a collection of O
 
 
 ## OAR Public Software Repository List 
-```
-Science Data Portal ([oar-sdp](https://github.com/usnistgov/oar-sdp))  --> Data discovery user interface web application software repository
-Public Data Repository (oar-pdr)  --> Software repository for NIST data publication web application including access to data 
-Distribution Service (oar-dist-service) --> Software repository for services to distribute OAR data files
-Resource Metadata Manager (oar-rmm) --> Software repository for services to access OAR resource metadata
-Builder (oar-build) --> Software repository for building OAR software
-Metadata (oar-metadata) --> Software repository for metadata services for the OAR public platform
-```
+
+**Science Data Portal** ([oar-sdp](https://github.com/usnistgov/oar-sdp))  --> Data discovery user interface web application software repository
+
+**Public Data Repository** ([oar-pdr](https://github.com/usnistgov/oar-pdr))  --> NIST public data repository user interface web application including access to data distributions,   metadata and associated publications 
+
+**Data Access (Distribution Service)** ([oar-dist-service](https://github.com/usnistgov/oar-dist-service)) --> Data distribution API service software for individual and bulk file access and download
+
+**Resource metadata access** ([oar-rmm](https://github.com/usnistgov/oar-rmm)) --> Data record metadata API service for search and access to dataset metadata (descriptive information) following the [NERDm JSON specification](https://data.nist.gov/od/dm/nerdm/)
+
+**Build Software** ([oar-build](https://github.com/usnistgov/oar-build)) --> Software repository for building OAR software
+
+**Metadata generation** ([oar-metadata](https://github.com/usnistgov/oar-metadata)) --> Metadata services software repository for working with the OAR internal metadata representation [NERDm JSON](https://data.nist.gov/od/dm/nerdm/)
+
 Consult the README.md files in the individual repository for details on software components.    Note Docker files used for building and deploying this software are currently restricted.   
 
 ## License and Disclaimer
