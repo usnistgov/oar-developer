@@ -6,7 +6,7 @@ The main web user entry point for NIST data dissemination and public access syst
 
 Goals for this suite of tools and services include implementation of community best practices for data and software solutions, facilitating [FAIR data principles](https://go-fair.org), and adherence to [federal data management and use requirements](https://resources.data.gov/).
 
-## OAR Public Software Repository List 
+## Suite of OAR Data Dissemination and Public Access software repositories 
 
 **Science Data Portal** ([oar-sdp](https://github.com/usnistgov/oar-sdp))  --> Data discovery user interface web application software repository
 
