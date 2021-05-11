@@ -40,4 +40,4 @@ THE SOFTWARE IS PROVIDED 'AS IS' WITHOUT ANY WARRANTY OF ANY KIND, EITHER EXPRES
 
 ## Release Notes
 
-The Current Release Notes for the latest tagged release is hosted in this repository and updated periodically.
+The [Current Release Notes](RELEASE_NOTES.md) for the latest tagged release is hosted in this repository and updated periodically.
