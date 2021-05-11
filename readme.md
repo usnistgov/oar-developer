@@ -7,8 +7,8 @@ The main web user entry point for NIST data dissemination and public access syst
 Goals for this suite of tools and services include implementation of community best practices for data and software solutions, facilitating [FAIR data principles](https://go-fair.org), and adherence to [federal data management and use requirements](https://resources.data.gov/).
 
 #### Table of Contents  
-[Respositories](#repositories)  
-[License and Disclaimer](#license)
+[Respositories](#repositories) 
+[License and Disclaimer](#license) 
 [Release Notes](#releasenotes)
  
 <a name="repositories"/>
