@@ -13,7 +13,7 @@ Goals for this suite of tools and services include implementation of community b
  
 <a name="repositories"/>
 
-## Suite of OAR Data Dissemination and Public Access software repositories 
+## Repositories for OAR Data Dissemination and Public Access software  
 
 **Science Data Portal** ([oar-sdp](https://github.com/usnistgov/oar-sdp))  --> Data discovery user interface web application software repository
 
@@ -29,7 +29,7 @@ Goals for this suite of tools and services include implementation of community b
 
 Consult the README.md files in the individual repository for details on software components.    Note Docker files used for building and deploying this software are currently restricted.   
 
-<a name="repositories"/>
+<a name="license"/>
 
 ## License and Disclaimer
 This software was developed by employees and contractors of the National Institute of Standards and Technology (NIST), an agency of the Federal Government and is being made available as a public service. Pursuant to title 17 United States Code Section 105, works of NIST employees are not subject to copyright protection in the United States. This software may be subject to foreign copyright. Permission in the United States and in foreign countries, to the extent that NIST may hold copyright, to use, copy, modify, create derivative works, and distribute this software and its documentation without fee is hereby granted on a non-exclusive basis, provided that this notice and disclaimer of warranty appears in all copies.
