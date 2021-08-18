@@ -10,6 +10,41 @@ An ODD Release is embodied by a release and deployment of the systems
 provided by the oar-docker repository (https://github.com/usnistgov/oar-docker,
 private).
 
+## Version 1.5.0 (2021-07-08)
+
+Feature Release
+* PDR:
+   * Introduction on dataset download metrics visible from landing page
+   * Schema.org metadata embedded in landing pages for external harvesting
+     (e.g. by Google)
+   * minor display tweaks
+* SDP
+   * Fix handling of quoted text in search box
+   * tweaks to menus
+   * security up-revs of dependency packages
+* PDR Publishing:
+   * added support for changes in NIST data publication revision policy
+   * added service for automated README generation
+* RMM:
+   * improved internal logging
+```
+oar-apps
+  oar-rmm-service:      oar-rmm          v1.1.0
+  sdp:                  oar-sdp          v1.3.3
+  pdr-nerdm:            oar-metadata     v1.0.19
+  nerdm-docs:           oar-metadata     v1.0.18
+  pdr-lps:              oar-pdr          v1.5.0
+  oar-dist-service:     oar-dist-service v2.1.8
+  oar-config-server:    oar-config       v1.5.0
+
+oar-publish
+  pdr-publish:          oar-pdr          v1.5.0
+  pdr-publish:          oar-metadata     v1.0.19
+  pdr-lps:              oar-pdr          v1.4.6
+  customization-api:    oar-pdr          v1.4.6
+  oar-config-server:    oar-config       v1.5.0
+```
+
 ## Version 1.4.7 (2021-03-18)
 
 Bug Fix Release
