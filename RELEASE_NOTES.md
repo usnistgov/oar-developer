@@ -12,7 +12,7 @@ private).
 
 ## Version 1.5.1 (2021-10-01)
 
-Feature Release
+Incremental Release
 * PDR:
    * hide SHA files from file listing
    * improved metadata viewer
