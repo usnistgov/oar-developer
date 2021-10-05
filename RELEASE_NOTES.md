@@ -10,6 +10,43 @@ An ODD Release is embodied by a release and deployment of the systems
 provided by the oar-docker repository (https://github.com/usnistgov/oar-docker,
 private).
 
+## Version 1.5.1 (2021-10-01)
+
+Incremental Release
+* PDR:
+   * hide SHA files from file listing
+   * improved metadata viewer
+   * more up-to-date metrics
+   * tweaks to display of access page links
+   * security updates to dependencies
+* SDP:
+   * security updates to dependencies
+* RMM:
+   * fixed swagger docs
+   * security updates to dependencies
+* PDR Publishing
+   * fix misspellings in auto-generated README
+   * updated NERDm metadata support
+```
+oar-apps
+  oar-rmm-service:      oar-rmm          v1.1.1
+  sdp:                  oar-sdp          v1.3.4
+  pdr-nerdm:            oar-metadata     v1.0.19
+  nerdm-docs:           oar-metadata     v1.0.19
+  pdr-lps:              oar-pdr          v1.5.1
+  oar-dist-service:     oar-dist-service v2.1.9
+  oar-config-server:    oar-config       v1.5.1
+
+oar-publish
+Components: 
+
+  pdr-publish:          oar-pdr          v1.5.1
+  pdr-publish:          oar-metadata     v1.0.19
+  pdr-lps:              oar-pdr          v1.5.1
+  customization-api:    oar-pdr          v1.4.6
+  oar-config-server:    oar-config       v1.5.1
+```
+
 ## Version 1.5.0 (2021-07-08)
 
 Feature Release
