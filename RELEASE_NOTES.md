@@ -10,6 +10,33 @@ An ODD Release is embodied by a release and deployment of the systems
 provided by the oar-docker repository (https://github.com/usnistgov/oar-docker,
 private).
 
+## Version 1.5.2 (2021-10-13)
+
+Incremental Release
+* PDR-LPS:
+   * fix Safari landing page rendering bug
+   * update NIST footer
+   * truncate time from dates
+* SDP:
+   * update SDP footer
+```
+oar-apps
+  oar-rmm-service:      oar-rmm          v1.1.1
+  sdp:                  oar-sdp          v1.3.5
+  pdr-nerdm:            oar-metadata     v1.0.19
+  nerdm-docs:           oar-metadata     v1.0.19
+  pdr-lps:              oar-pdr          v1.5.2
+  oar-dist-service:     oar-dist-service v2.1.9
+  oar-config-server:    oar-config       v1.5.2
+
+oar-publish
+  pdr-publish:          oar-pdr          v1.5.1
+  pdr-publish:          oar-metadata     v1.0.19
+  pdr-lps:              oar-pdr          v1.5.2
+  customization-api:    oar-pdr          v1.4.6
+  oar-config-server:    oar-config       v1.5.2
+```
+
 ## Version 1.5.1 (2021-10-01)
 
 Incremental Release
@@ -82,6 +109,29 @@ oar-publish
   oar-config-server:    oar-config       v1.5.0
 ```
 
+## Version 1.4.8 (2021-03-26)
+
+Bug Fix Release
+* PDR Publishing:
+   * fix download file name on pre-publication landing page
+```
+oar-apps
+  oar-rmm-service:      oar-rmm          v1.0.7
+  sdp:                  oar-sdp          v1.3.2
+  pdr-nerdm:            oar-metadata     v1.0.18
+  nerdm-docs:           oar-metadata     v1.0.18
+  pdr-lps:              oar-pdr          v1.4.6
+  oar-dist-service:     oar-dist-service v2.1.8
+  oar-config-server:    oar-config       v1.4.8
+
+oar-publish
+  pdr-publish:          oar-pdr          v1.4.7
+  pdr-publish:          oar-metadata     v1.0.18
+  pdr-lps:              oar-pdr          v1.4.6
+  customization-api:    oar-pdr          v1.4.6
+  oar-config-server:    oar-config       v1.4.8
+```
+
 ## Version 1.4.7 (2021-03-18)
 
 Bug Fix Release
@@ -102,6 +152,7 @@ Bug Fix Release
 * RMM:
    * fix CORS configuration for public access to API
 
+```
 oar-apps
   oar-rmm-service:      oar-rmm          v1.0.7
   sdp:                  oar-sdp          v1.3.2
@@ -117,6 +168,7 @@ oar-publish
   pdr-lps:              oar-pdr          v1.4.6
   customization-api:    oar-pdr          v1.4.6
   oar-config-server:    oar-config       v1.4.7
+```
 
 ## Version 1.4.6 (2020-11-26)
 
