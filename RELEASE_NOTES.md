@@ -10,6 +10,92 @@ An ODD Release is embodied by a release and deployment of the systems
 provided by the oar-docker repository (https://github.com/usnistgov/oar-docker,
 private).
 
+## Version 1.6.1 (2021-12-21)
+
+Bug Fix Release
+
+Version 1.6.0 was not deployed to production due to some minor oversights
+(namely, the version displayed on web pages was not correct); this release
+corrects those issues.
+
+See V1.6.0 below for features introduced with this version.  
+```
+oar-apps
+  oar-rmm-service:      oar-rmm          v1.1.2
+  sdp:                  oar-sdp          v1.3.6
+  pdr-nerdm:            oar-metadata     v1.0.20
+  nerdm-docs:           oar-metadata     v1.0.19
+  pdr-lps:              oar-pdr          v1.6.0
+  oar-dist-service:     oar-dist-service v2.1.10
+  oar-config-server:    oar-config       v1.6.1
+
+oar-publish
+  pdr-publish:          oar-pdr          v1.6.1
+  pdr-publish:          oar-metadata     v1.0.20
+  pdr-lps:              oar-pdr          v1.6.0
+  customization-api:    oar-pdr          v1.6.0
+  oar-config-server:    oar-config       v1.6.1
+```
+
+## Version 1.6.0 (2021-12-21)
+
+Feature Release
+* SDP:
+   * new search auto-suggest feature based on parmenides
+* PDR-Publish:
+   * Special processing added for restricted public access
+   * Updated spring SAML support
+   * Built-in health monitoring of the public PDR/SDP services
+* PDR-LPS:
+   * new file detail display
+   * tweak to metrics display
+```
+oar-apps
+  oar-rmm-service:      oar-rmm          v1.1.2
+  sdp:                  oar-sdp          v1.3.6
+  pdr-nerdm:            oar-metadata     v1.0.20
+  nerdm-docs:           oar-metadata     v1.0.19
+  pdr-lps:              oar-pdr          v1.6.0
+  oar-dist-service:     oar-dist-service v2.1.10
+  oar-config-server:    oar-config       v1.6.0
+
+oar-publish
+  pdr-publish:          oar-pdr          v1.6.0
+  pdr-publish:          oar-metadata     v1.0.20rc1
+  pdr-lps:              oar-pdr          v1.6.0
+  customization-api:    oar-pdr          v1.6.0
+  oar-config-server:    oar-config       v1.6.0
+```
+
+## Version 1.5.3 (2021-10-25)
+
+Incremental Release
+* PDR-LPS:
+   * replace "Metadata" setions with "About This Dataset"
+   * tweak sections formatting, tools contents
+   * display ORCIDs
+   * fix primary reference display bug
+   * fix resource type label bug
+* RMM & Distribution Service:
+   * fix and update Swagger API documentation
+```
+oar-apps
+  oar-rmm-service:      oar-rmm          v1.1.2
+  sdp:                  oar-sdp          v1.3.5
+  pdr-nerdm:            oar-metadata     v1.0.19
+  nerdm-docs:           oar-metadata     v1.0.19
+  pdr-lps:              oar-pdr          v1.5.3
+  oar-dist-service:     oar-dist-service v2.1.10
+  oar-config-server:    oar-config       v1.5.3
+
+oar-publish
+  pdr-publish:          oar-pdr          v1.5.1
+  pdr-publish:          oar-metadata     v1.0.19
+  pdr-lps:              oar-pdr          v1.5.3
+  customization-api:    oar-pdr          v1.4.6
+  oar-config-server:    oar-config       v1.5.3
+```
+
 ## Version 1.5.2 (2021-10-13)
 
 Incremental Release
