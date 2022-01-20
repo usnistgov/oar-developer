@@ -27,7 +27,7 @@ Goals for this suite of tools and services include implementation of community b
 
 **Metadata generation** ([oar-metadata](https://github.com/usnistgov/oar-metadata)) --> Metadata services software repository for working with the OAR internal metadata representation [NERDm JSON](https://data.nist.gov/od/dm/nerdm/)
 
-**Python support tools** ([oar-pdr-py](https://github.com/usnistgov/oar-pdr-py)]
+**Python support tools** ([oar-pdr-py](https://github.com/usnistgov/oar-pdr-py)] --> Key services for publishing in the PDR
 
 Consult the README.md files in the individual repository for details on software components.    Note Docker files used for building and deploying this software are currently restricted.   
 
