@@ -10,6 +10,166 @@ An ODD Release is embodied by a release and deployment of the systems
 provided by the oar-docker repository (https://github.com/usnistgov/oar-docker,
 private).
 
+## Version 1.7.1 (2022-05-31)
+
+Bug fix release:
+* PDR-LPS
+   * restore display of research topics
+
+```
+oar-apps
+  oar-rmm-service:      oar-rmm          v1.1.2
+  sdp:                  oar-sdp          v1.3.7
+  pdr-nerdm:            oar-metadata     v1.0.21
+  nerdm-docs:           oar-metadata     v1.0.21
+  pdr-lps:              oar-pdr          v1.7.1
+  oar-dist-service:     oar-dist-service v2.2.5
+  oar-config-server:    oar-config       v1.7.1
+
+oar-publish
+  pdr-publish:          oar-pdr          v1.7.0
+  pdr-publish:          oar-metadata     v1.0.21
+  pdr-lps:              oar-pdr          v1.7.1
+  customization-api:    oar-pdr          v1.7.0
+  oar-config-server:    oar-config       v1.7.1
+```
+
+## Version 1.7.0 (2022-05-30)
+
+Feature Release: Support for Science Themes
+* NERDm:
+   * new NERDm extension for aggregations: nerdm-agg-schema.json
+   * update to core (v0.6): supporting fixes
+* SDP:
+   * new front pages with support for links to science themes
+   * search result layout improvements inspired by science theme support
+* PDR-LPS
+   * support for science-themes related layout
+   * upgrade to angular 13
+   * layout bug fixes
+* Distribution Serivce
+   * bug fix: properly capture bundle downloads for metrics
+   * fix file and thread leaks
+
+```
+oar-apps
+  oar-rmm-service:      oar-rmm          v1.1.2
+  sdp:                  oar-sdp          v1.3.7
+  pdr-nerdm:            oar-metadata     v1.0.21
+  nerdm-docs:           oar-metadata     v1.0.21
+  pdr-lps:              oar-pdr          v1.7.0
+  oar-dist-service:     oar-dist-service v2.2.5
+  oar-config-server:    oar-config       v1.7.0
+
+oar-publish
+  pdr-publish:          oar-pdr          v1.7.0
+  pdr-publish:          oar-metadata     v1.0.21
+  pdr-lps:              oar-pdr          v1.7.0
+  customization-api:    oar-pdr          v1.7.0
+  oar-config-server:    oar-config       v1.7.0
+```
+
+## Version 1.6.5 (2022-04-10)
+
+Bug fix Release
+* Distribution Serivce
+   * fix file and thread leaks
+   * a cache queue service endpoint
+   * allow addition bucket access to dist bundler
+
+```
+oar-apps
+  oar-rmm-service:      oar-rmm          v1.1.2
+  sdp:                  oar-sdp          v1.3.6
+  pdr-nerdm:            oar-metadata     v1.0.20
+  nerdm-docs:           oar-metadata     v1.0.19
+  pdr-lps:              oar-pdr          v1.6.2
+  oar-dist-service:     oar-dist-service v2.2.4
+  oar-config-server:    oar-config       v1.6.5
+
+oar-publish
+  pdr-publish:          oar-pdr          v1.6.1
+  pdr-publish:          oar-metadata     v1.0.20
+  pdr-lps:              oar-pdr          v1.6.0
+  customization-api:    oar-pdr          v1.6.0
+  oar-config-server:    oar-config       v1.6.5
+```
+
+## Version 1.6.4 (2022-03-31)
+
+Bug fix Release
+* Distribution Serivce
+   * make AWS checksum checks faster
+
+```
+oar-apps
+  oar-rmm-service:      oar-rmm          v1.1.2
+  sdp:                  oar-sdp          v1.3.6
+  pdr-nerdm:            oar-metadata     v1.0.20
+  nerdm-docs:           oar-metadata     v1.0.19
+  pdr-lps:              oar-pdr          v1.6.2
+  oar-dist-service:     oar-dist-service v2.2.3
+  oar-config-server:    oar-config       v1.6.4
+
+oar-publish
+  pdr-publish:          oar-pdr          v1.6.1
+  pdr-publish:          oar-metadata     v1.0.20
+  pdr-lps:              oar-pdr          v1.6.0
+  customization-api:    oar-pdr          v1.6.0
+  oar-config-server:    oar-config       v1.6.4
+```
+
+## Version 1.6.3 (2022-02-15)
+
+Bug fix Release
+* Distribution Serivce
+   * fix some file descriptor leaks in the cache manager
+
+```
+oar-apps
+  oar-rmm-service:      oar-rmm          v1.1.2
+  sdp:                  oar-sdp          v1.3.6
+  pdr-nerdm:            oar-metadata     v1.0.20
+  nerdm-docs:           oar-metadata     v1.0.19
+  pdr-lps:              oar-pdr          v1.6.2
+  oar-dist-service:     oar-dist-service v2.2.1
+  oar-config-server:    oar-config       v1.6.3
+
+oar-publish
+  pdr-publish:          oar-pdr          v1.6.1
+  pdr-publish:          oar-metadata     v1.0.20
+  pdr-lps:              oar-pdr          v1.6.0
+  customization-api:    oar-pdr          v1.6.0
+  oar-config-server:    oar-config       v1.6.3
+```
+
+## Version 1.6.2 (2022-02-11)
+
+Feature Release
+* Distribution Serivce
+   * introducing the cache manager for improved performance and robustness
+     of data delivery
+* PDR-LPS
+   * Fix metrics "More..." link
+
+```
+oar-apps
+  oar-rmm-service:      oar-rmm          v1.1.2
+  sdp:                  oar-sdp          v1.3.6
+  pdr-nerdm:            oar-metadata     v1.0.20
+  nerdm-docs:           oar-metadata     v1.0.19
+  pdr-lps:              oar-pdr          v1.6.2
+  oar-dist-service:     oar-dist-service v2.2.0
+  oar-config-server:    oar-config       v1.6.2.1
+
+oar-publish
+  pdr-publish:          oar-pdr          v1.6.1
+  pdr-publish:          oar-metadata     v1.0.20
+  pdr-lps:              oar-pdr          v1.6.0
+  customization-api:    oar-pdr          v1.6.0
+  oar-config-server:    oar-config       v1.6.2.1
+```
+
 ## Version 1.6.1 (2021-12-21)
 
 Bug Fix Release
