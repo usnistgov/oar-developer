@@ -10,6 +10,38 @@ An ODD Release is embodied by a release and deployment of the systems
 provided by the oar-docker repository (https://github.com/usnistgov/oar-docker,
 private).
 
+## Version 1.15.4 (2026-02-01)
+
+Bug Fix Release
+ * PDR:
+   * Distribution Service: security update
+   * LPS:
+     * version now included in default citation strings
+     * fixed topic display error for CHIPS Metrology collection members
+     * security update
+```
+oar-apps
+  pdr-nerdm:            oar-metadata     v2.1.5
+  pdr-py:               oar-pdr-py       v2.1.5
+  pdr-py:               oar-metadata     v2.1.6
+  pdr-lps:              oar-pdr-angular  v1.4.8
+  sdp:                  oar-sdp          v2.2.3
+  pdr-rpa-request:      oar-pdr-angular  v1.4.8
+  pdr-rpa-approve:      oar-pdr-angular  v1.4.8
+  auth-py:              oar-auth-py      v1.0.2
+  auth-py:              oar-metadata     v2.1.4
+  oar-dist-service:     oar-dist-service v2.5.2
+  oar-config-server:    oar-config       v1.15.4
+  nerdm-docs:           oar-metadata     v2.1.1
+
+oar-publish
+  pdr-publish:          oar-pdr          v1.10.0
+  pdr-publish:          oar-metadata     v1.0.16
+  pdr-lps:              oar-pdr          v1.8.1
+  customization-api:    oar-pdr          v1.8.1
+  oar-config-server:    oar-config       v1.13.1
+```
+
 ## Version 1.15.3 (2026-01-14)
 
 Bug Fix Release
