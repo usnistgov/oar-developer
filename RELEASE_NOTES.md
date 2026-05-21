@@ -10,6 +10,71 @@ An ODD Release is embodied by a release and deployment of the systems
 provided by the oar-docker repository (https://github.com/usnistgov/oar-docker,
 private).
 
+## Version 1.15.5 (2026-04-17)
+
+Bug Fix Release
+ * RMM: fixes to API documentation and display, logging configuration
+ * PDR LPS: fix icon loading, loading performance improvements
+```
+oar-apps
+  pdr-nerdm:            oar-metadata     v2.1.5
+  pdr-py:               oar-pdr-py       v2.1.5
+  pdr-py:               oar-metadata     v2.1.6
+  pdr-lps:              oar-pdr-angular  v1.4.10
+  pdr-rpa-approve:      oar-pdr-angular  v1.4.8
+  pdr-rpa-approve:      oar-lib-angular  v1.2.4
+  sdp:                  oar-sdp          v2.2.4
+  pdr-rpa-request:      oar-pdr-angular  v1.4.8
+  pdr-rpa-request:      oar-lib-angular  v1.2.4
+  auth-py:              oar-auth-py      v1.0.2
+  auth-py:              oar-metadata     v2.1.4
+  oar-dist-service:     oar-dist-service v2.5.3
+  oar-config-server:    oar-config       v1.15.6
+  nerdm-docs:           oar-metadata     v2.1.1
+
+oar-publish
+  pdr-publish:          oar-pdr          v1.10.0
+  pdr-publish:          oar-metadata     v1.0.16
+  pdr-lps:              oar-pdr          v1.8.1
+  customization-api:    oar-pdr          v1.8.1
+  oar-config-server:    oar-config       v1.13.1
+```
+
+## Version 1.15.5 (2026-04-17)
+
+Bug Fix Release
+ * PDR:
+   * Distribution Service: minor tweak of Cache-Control headers
+   * LPS:
+     * fix intermittent icon loading error
+     * add CoreTrustSeal logo to footer
+ * SDP:
+   * add CoreTrustSeal logo to footer
+```
+oar-apps
+  pdr-nerdm:            oar-metadata     v2.1.5
+  pdr-py:               oar-pdr-py       v2.1.5
+  pdr-py:               oar-metadata     v2.1.6
+  pdr-lps:              oar-pdr-angular  v1.4.9
+  pdr-rpa-approve:      oar-pdr-angular  v1.4.8
+  pdr-rpa-approve:      oar-lib-angular  v1.2.4
+  sdp:                  oar-sdp          v2.2.4
+  pdr-rpa-request:      oar-pdr-angular  v1.4.8
+  pdr-rpa-request:      oar-lib-angular  v1.2.4
+  auth-py:              oar-auth-py      v1.0.2
+  auth-py:              oar-metadata     v2.1.4
+  oar-dist-service:     oar-dist-service v2.5.3
+  oar-config-server:    oar-config       v1.15.5
+  nerdm-docs:           oar-metadata     v2.1.1
+
+oar-publish
+  pdr-publish:          oar-pdr          v1.10.0
+  pdr-publish:          oar-metadata     v1.0.16
+  pdr-lps:              oar-pdr          v1.8.1
+  customization-api:    oar-pdr          v1.8.1
+  oar-config-server:    oar-config       v1.13.1
+```
+
 ## Version 1.15.4 (2026-02-01)
 
 Bug Fix Release
