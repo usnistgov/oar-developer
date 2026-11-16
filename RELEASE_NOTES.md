@@ -10,11 +10,85 @@ An ODD Release is embodied by a release and deployment of the systems
 provided by the oar-docker repository (https://github.com/usnistgov/oar-docker,
 private).
 
-## Version 1.15.5 (2026-04-17)
+## Version 1.16.1 (2026-11-16)
+
+Bug Fix Release: improve distservice performance
+ * Distrib:  replace cache manager's SQLite database with Postgres for improve performance
+ * PDR: fix CTS link, some layout fixes
+ * SDP: added search tips to home page, US gov note at top
+```
+oar-apps
+  pdr-nerdm:            oar-metadata     v2.1.5
+  pdr-py:               oar-pdr-py       v2.1.5
+  pdr-py:               oar-metadata     v2.1.5
+  pdr-lps:              oar-pdr-angular  v1.5.1
+  pdr-rpa-approve:      oar-pdr-angular  v1.5.1
+  sdp:                  oar-sdp          v2.3.1
+  pdr-rpa-request:      oar-pdr-angular  v1.5.1
+  auth-py:              oar-auth-py      v1.0.2
+  auth-py:              oar-metadata     v2.1.4
+  oar-dist-service:     oar-dist-service v2.6.0
+  oar-config-server:    oar-config       v1.16.1
+  nerdm-docs:           oar-metadata     v2.1.6
+```
+
+## Version 1.16.0 (2026-09-27)
+
+Feature Release: usage metrics dashboard
+ * Metrics Dashboard: new usage-metrics dashboard served at /metrics-dashboard/ (repository- and collection-level metrics, monthly charts, most-accessed lists)
+ * SDP: top navbar redesign (logo, menu, metrics link); core trust seal footer link now points to the DOI resolver
+ * PDR: collection landing pages link out to their metrics ("View Details")
+```
+oar-apps
+  pdr-nerdm:            oar-metadata     v2.1.5
+  pdr-py:               oar-pdr-py       v2.1.5
+  pdr-py:               oar-metadata     v2.1.5
+  pdr-lps:              oar-pdr-angular  v1.5.0
+  pdr-rpa-approve:      oar-pdr-angular  v1.4.11
+  sdp:                  oar-sdp          v2.3.0
+  pdr-rpa-request:      oar-pdr-angular  v1.4.11
+  auth-py:              oar-auth-py      v1.0.2
+  auth-py:              oar-metadata     v2.1.4
+  oar-dist-service:     oar-dist-service v2.5.4
+  oar-config-server:    oar-config       v1.16.0
+  nerdm-docs:           oar-metadata     v2.1.6
+```
+
+## Version 1.15.7 (2026-08-18)
+
+Bug Fix Release
+ * PDR Distribution/RPA Support: bug fixes
+ * PDR LPS: fix collection filter bugs
+ * Fixed NERDm Readers' Guide
+```
+oar-apps
+  pdr-nerdm:            oar-metadata     v2.1.5
+  pdr-py:               oar-pdr-py       v2.1.5
+  pdr-py:               oar-metadata     v2.1.5
+  pdr-lps:              oar-pdr-angular  v1.4.11
+  pdr-rpa-approve:      oar-pdr-angular  v1.4.11
+  sdp:                  oar-sdp          v2.2.4
+  pdr-rpa-request:      oar-pdr-angular  v1.4.11
+  auth-py:              oar-auth-py      v1.0.2
+  auth-py:              oar-metadata     v2.1.4
+  oar-dist-service:     oar-dist-service v2.5.4
+  oar-config-server:    oar-config       v1.15.7
+  nerdm-docs:           oar-metadata     v2.1.6
+
+oar-publish
+  pdr-publish:          oar-pdr          v1.10.0
+  pdr-publish:          oar-metadata     v1.0.16
+  pdr-lps:              oar-pdr          v1.8.1
+  customization-api:    oar-pdr          v1.8.1
+  oar-config-server:    oar-config       v1.13.1
+```
+
+## Version 1.15.6 (2026-04-17)
 
 Bug Fix Release
  * RMM: fixes to API documentation and display, logging configuration
  * PDR LPS: fix icon loading, loading performance improvements
+
 ```
 oar-apps
   pdr-nerdm:            oar-metadata     v2.1.5
